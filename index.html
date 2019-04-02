@@ -1,21 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>mattillustrates</title>
-</head>
-<body>
-    <header>
-        <h1>Header goes here</h1>
-    </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="Digital Illustrations" />
+    <meta
+      name="keywords"
+      content="illustration, art,
+    drawing, manga, digital art"
+    />
+    <meta name="author" content="Matthew Layman" />
+    <title>mattillustrates | welcome</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/lightbox.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <header>Matt Layman</header>
+    <div class="lightbox"></div>
+    <a href="images/dog.jpg" data-lightbox="dogs">Image #1</a>
+    <a href="images/dogs.jpg" data-lightbox="dogs">Image #2</a>
 
-    <form name="contact"  data-netlify="true" action="/submitted">
-        <input name="Name" placeholder="Name"/>
-        <input name="Email" placeholder="Email"/>
-        <textarea name="Message" placeholder="Message"></textarea>
-        <input type="submit" value="Send"/>
+    <h2>Contact</h2>
+    <form name="contact" data-netlify="true" action="/submitted">
+      <input name="Name" placeholder="Name" />
+      <input name="Email" placeholder="Email" />
+      <textarea name="Message" placeholder="Message"></textarea>
+      <input type="submit" value="Send" />
     </form>
-</body>
+    <script src="/javascript/lightbox.min.js"></script>
+  </body>
 </html>
